@@ -1,23 +1,27 @@
 import React from 'react'
 import "../style/hero-style.css"
-export default function Hero()
-{
+import Carousel from "./carousel";
+
+const Hero = () => {
+    const images = [
+      "../images/hero-bg1.svg",
+      "../images/hero-bg2.svg",
+      "../images/hero-bg3.svg"
+    ];
+  
     return (
-        <>
-            <section className='container'>
-                <div className='slider-wrapper'>
-                    <div className='slider'>
-                        <img src='../images/hero-bg1.svg' id='slide1' />
-                        <img src='../images/hero-bg2.svg' id='slide2'/>
-                        <img src='../images/hero-bg3.svg' id='slide3'/>
-                    </div>
-                    <div className='slider-nav'>
-                        <a href='slider-1'> </a>
-                        <a href='slider-2'> </a>
-                        <a href='slider-3'> </a>
-                    </div>
-                </div>
-            </section>
-        </>
-    )
-}
+      <div className='hero-div'>
+        <div className='hero-text'>
+            <h4>winter 2023 collection</h4>
+            <h1>Winter is here...</h1>
+            <h4>Grab branded cloths at 30% off*</h4>
+            <button className='explore-btn'>
+                Explore Collection
+            </button>
+        </div>
+        <Carousel images={images} />
+      </div>
+    );
+  };
+  
+  export default Hero;
