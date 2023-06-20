@@ -1,0 +1,53 @@
+.category
+{
+    margin-top: 18rem;
+    display: flex;
+    gap: 2rem;
+    padding-inline: 3rem;
+    justify-content: space-between;
+}
+.category-text
+{
+    width:30%;
+}
+.category-text h2
+{
+    font-size: 40px;
+}
+.category-text p
+{
+    font-size: 20px;
+    padding-block: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    opacity: .8;
+}
+/* .category-cards
+{
+    position: relative;
+} */
+.category-cards ul
+{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.category-cards ul li
+{
+    width: 10rem;
+    position: relative;
+}
+.category-cards img
+{
+    width: 100%;
+    height: max-content;
+    position: absolute;
+}
+.up
+{
+    top: -1.5rem;
+}
+.down
+{
+   top:1.5rem;
+}
