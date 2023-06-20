@@ -1,0 +1,20 @@
+.pre-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5rem 3rem;
+
+    background-color: #CBC6C6;
+}
+.left-menu, .right-menu
+{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.list-item
+{
+    display: flex;
+    gap: 1rem;
+}
