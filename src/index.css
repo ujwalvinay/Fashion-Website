@@ -1,0 +1,9 @@
+html,body
+{
+    position: relative;
+}
+body
+{
+    
+    overflow-x: hidden;   
+}
