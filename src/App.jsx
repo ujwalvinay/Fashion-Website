@@ -3,6 +3,7 @@ import './App.css'
 import Preheader from './components/preheader'
 import Header from './components/header'
 import Hero from './components/hero'
+import NewCollection from './components/newcollection'
 import Category from './components/category'
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Category/>
+      <NewCollection/>
     </>
   )
 }

@@ -1,0 +1,40 @@
+.parent
+{
+    display: flex;
+    gap: 1rem;
+    padding:5rem 3rem;
+    margin: auto;
+}
+.left-child, .right-child
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.collection-p
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 1rem;
+}
+.div3 h2
+{
+    font-size: 40px;
+    padding-block: 1rem;
+}
+.div3 p
+{
+    width: 40rem;
+    font-size: 18px;
+    opacity: .7;
+    line-height: 1.7;
+}
+.collection-btn
+{
+    padding: 1rem 11rem;
+}
+.div1 img
+{
+    width: 90%;
+}
