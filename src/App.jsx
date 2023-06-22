@@ -5,6 +5,9 @@ import Header from './components/header'
 import Hero from './components/hero'
 import NewCollection from './components/newcollection'
 import Category from './components/category'
+import VideoBg from './components/video-bg'
+import WinterIntro from './components/winter-intro'
+
 function App() {
   return (
     <>
@@ -13,6 +16,8 @@ function App() {
       <Hero />
       <Category/>
       <NewCollection/>
+      <VideoBg />
+      <WinterIntro />
     </>
   )
 }

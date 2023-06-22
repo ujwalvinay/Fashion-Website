@@ -1,0 +1,52 @@
+.winter-intro{
+    display: flex;
+    gap: 5rem;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+.img-div
+{
+    width:25rem;
+}
+.img-div img
+{
+    width: 100%;
+}
+.intro-text
+{
+    width: 50%;
+}
+.intro-text h2
+{
+   font-size: 60px;
+}
+.intro-text p
+{
+    padding-block: 3rem;
+    width: 90%;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.buttons button
+{
+    padding: .5rem 1.5rem;
+    font-size: 14px;
+}
+.men-btn
+{
+    background: black;
+    color: white;
+
+}
+.women-btn
+{
+    background-color: white;
+}
